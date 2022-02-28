@@ -21,7 +21,7 @@
   color: rgb(43, 176, 255);
 }
 
-#date{
+.very-small{
   font-size: small;
 }
 
@@ -37,4 +37,8 @@ header img{
   position: absolute;
   bottom: 10%;
   height: 50%;
+}
+
+main p{
+  margin-top: 1%;
 }
