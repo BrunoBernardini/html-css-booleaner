@@ -11,14 +11,25 @@
   background-size: 23%;
   background-color: cornflowerblue;
   position: relative;
-  padding: 0 0.5% 0 0.5%;
+}
+
+.under-title{
+  color: gray;
+}
+
+#highlight{
+  color: rgb(43, 176, 255);
+}
+
+#date{
+  font-size: small;
 }
 
 header h1{
   margin-top: 1%;
 }
 
-header.banner, header > h1, main{
+header .banner, header .title-text, main{
   padding: 0 0.5% 0 0.5%;
 }
 
