@@ -26,8 +26,13 @@
 }
 
 /* Gestione del corpo pagina (che non ridimensiona lo sfondo dell'header */
-header img, header .title-text, main, ul, footer{
+header img, header .title-text, main, footer{
   margin: 0 10% 0 10%;
+}
+
+/* Di default i bullets delle liste non vengono contenuti nell'area del padre, serve questo fix */
+ul{
+  list-style-position: inside;
 }
 
 header img{
@@ -68,6 +73,10 @@ tbody tr:nth-child(odd)
 {
   background-color: rgb(177, 229, 242);
   border-color: rgb(177, 229, 242);
+}
+
+footer{
+  margin-bottom: 1%;
 }
 
 /* Template per le immagini del footer, da integrare con l'id dello sfondo */
