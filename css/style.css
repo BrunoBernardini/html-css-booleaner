@@ -25,6 +25,7 @@
   font-size: small;
 }
 
+/* Gestione del corpo pagina (che non ridimensiona lo sfondo dell'header */
 header img, header .title-text, main, ul, footer{
   margin: 0 1% 0 1%;
 }
@@ -39,6 +40,7 @@ header h1, main p, ul, table, footer, .foot-image-block{
   margin-top: 1.25%;
 }
 
+/* Evidenziazione */
 .highlight{
   background-color: yellow;
 }
@@ -61,12 +63,14 @@ thead{
   color: white;
 }
 
+/* Colora le righe della tabella alternativamente */
 tbody tr:nth-child(odd)
 {
   background-color: rgb(177, 229, 242);
   border-color: rgb(177, 229, 242);
 }
 
+/* Template per le immagini del footer, da integrare con l'id dello sfondo */
 .foot-image-block{
   background-color: blue;
   width: 312px;
