@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner{
+  width: 100%;
+  height: 11vh;
+  background-image: url('../img/pattern.png');
+  background-size: 23%;
+  background-color: cornflowerblue;
+  position: relative;
+}
+
+.under-title{
+  color: gray;
+}
+
+#climax{
+  color: rgb(43, 176, 255);
+}
+
+.very-small{
+  font-size: small;
+}
+
+/* Gestione del corpo pagina (che non ridimensiona lo sfondo dell'header */
+header img, header .title-text, main, ul, footer{
+  margin: 0 10% 0 10%;
+}
+
+header img{
+  position: absolute;
+  bottom: 10%;
+  height: 50%;
+}
+
+header h1, main p, ul, table, footer, .foot-image-block{
+  margin-top: 1.25%;
+}
+
+/* Evidenziazione */
+.highlight{
+  background-color: yellow;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.small-column{
+  width: 20%;
+}
+
+th, td{
+  text-align: left;
+}
+
+thead{
+  background-color: rgb(32, 169, 229);
+  margin: 0;
+  color: white;
+}
+
+/* Colora le righe della tabella alternativamente */
+tbody tr:nth-child(odd)
+{
+  background-color: rgb(177, 229, 242);
+  border-color: rgb(177, 229, 242);
+}
+
+/* Template per le immagini del footer, da integrare con l'id dello sfondo */
+.foot-image-block{
+  background-color: blue;
+  width: 312px;
+  height: 208px;
+  color: white;
+  font-size: 1.47rem;
+  font-weight: bold;
+  padding: 0.75%;
+}
+
+#image1{
+  background-image: url('../img/monitor.jpg');
+}
+
+#image2{
+  background-image: url('../img/graph.jpg');
+}
