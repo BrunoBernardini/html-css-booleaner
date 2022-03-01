@@ -25,7 +25,7 @@
   font-size: small;
 }
 
-header img, header .title-text, main, ul{
+header img, header .title-text, main, ul, footer{
   margin: 0 1% 0 1%;
 }
 
@@ -35,7 +35,7 @@ header img{
   height: 50%;
 }
 
-header h1, main p, ul, table{
+header h1, main p, ul, table, footer, .foot-image-block{
   margin-top: 1.25%;
 }
 
@@ -65,4 +65,22 @@ tbody tr:nth-child(odd)
 {
   background-color: rgb(177, 229, 242);
   border-color: rgb(177, 229, 242);
+}
+
+.foot-image-block{
+  background-color: blue;
+  width: 312px;
+  height: 208px;
+  color: white;
+  font-size: 1.47rem;
+  font-weight: bold;
+  padding: 0.75%;
+}
+
+#image1{
+  background-image: url('../img/monitor.jpg');
+}
+
+#image2{
+  background-image: url('../img/graph.jpg');
 }
