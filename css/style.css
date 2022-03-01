@@ -17,7 +17,7 @@
   color: gray;
 }
 
-#highlight{
+#climax{
   color: rgb(43, 176, 255);
 }
 
@@ -39,8 +39,12 @@ header img{
   height: 50%;
 }
 
-main p, ul{
+main p, ul, table{
   margin-top: 1%;
+}
+
+table{
+  border-collapse: collapse;
 }
 
 .small-column{
@@ -51,12 +55,14 @@ th, td{
   text-align: left;
 }
 
-thead tr th{
+thead{
   background-color: rgb(32, 169, 229);
+  margin: 0;
   color: white;
 }
 
 tbody tr:nth-child(odd)
 {
   background-color: rgb(177, 229, 242);
+  border-color: rgb(177, 229, 242);
 }
